@@ -1,3 +1,44 @@
+/* =========== DEFAULT  ============ */
+*,
+*::after,
+*::before {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-left: 0;
+}
+
+img {
+  display: block;
+}
+
+button {
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+}
+
+a {
+  text-decoration: none;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   background-color: #fff;
@@ -12,6 +53,39 @@ h2 {
   line-height: 40px;
   letter-spacing: 0.72px;
   text-transform: capitalize;
+}
+
+/* =========== DEFAULT  ============ */
+
+/* =========== HEADER  ============ */
+
+.header .container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: row;
+  margin: 24px 0;
+}
+
+.header .container .nav .nav-logo {
+  margin-right: 36px;
+}
+
+.header .container .nav,
+.header .container .nav .nav-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
+}
+
+.header .container .address .address-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  gap: 40px;
 }
 
 .header .nav .nav-logo {
