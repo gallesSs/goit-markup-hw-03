@@ -64,7 +64,7 @@ h2 {
 
 /* =========== HEADER  ============ */
 
-.header .container {
+.container {
   width: 1158px;
   display: flex;
   justify-content: space-around;
@@ -91,7 +91,7 @@ h2 {
   gap: 40px;
 }
 
-.header .nav .nav-list .address-list-item {
+.header .nav .nav-list .nav-list-item .nav-list-item-link {
   padding: 24px 0;
 }
 
