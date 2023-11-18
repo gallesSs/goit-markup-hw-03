@@ -95,7 +95,7 @@ h2 {
   padding: 24px 0;
 }
 
-.header .nav .nav-list .header .container .address .address-list {
+.header .container .address .address-list {
   display: flex;
   justify-content: center;
   align-items: center;
