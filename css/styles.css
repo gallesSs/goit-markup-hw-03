@@ -23,6 +23,11 @@ ol {
   padding-left: 0;
 }
 
+.container {
+  width: 1158px;
+  margin: 0 auto;
+}
+
 img {
   display: block;
 }
@@ -60,15 +65,21 @@ h2 {
 /* =========== HEADER  ============ */
 
 .header .container {
+  width: 1158px;
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-direction: row;
-  margin: 24px 0;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+.header {
+  border-bottom: 1px solid #e7e9fc;
 }
 
 .header .container .nav .nav-logo {
-  margin-right: 36px;
+  margin-right: 76px;
 }
 
 .header .container .nav,
@@ -88,6 +99,10 @@ h2 {
   gap: 40px;
 }
 
+.header .nav {
+  padding: 24px 0;
+}
+
 .header .nav .nav-logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
@@ -97,6 +112,7 @@ h2 {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  margin-right: 76px;
 }
 
 .header .nav .nav-logo > span {
