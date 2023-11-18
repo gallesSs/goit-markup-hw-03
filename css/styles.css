@@ -89,18 +89,15 @@ h2 {
   align-items: center;
   flex-direction: row;
   gap: 40px;
+  padding: 24px 0;
 }
 
-.header .container .address .address-list {
+.header .nav .nav-list .header .container .address .address-list {
   display: flex;
   justify-content: center;
   align-items: center;
   flex-direction: row;
   gap: 40px;
-}
-
-.header .nav {
-  padding: 24px 0;
 }
 
 .header .nav .nav-logo {
