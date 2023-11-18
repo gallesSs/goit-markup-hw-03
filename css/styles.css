@@ -164,7 +164,7 @@ h2 {
   letter-spacing: 0.02em;
 }
 
-.main .hero .hero-title {
+.main .hero .container .hero-title {
   color: #fff;
   font-size: 56px;
   font-style: normal;
@@ -172,13 +172,15 @@ h2 {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
+  width: 496px;
 }
 
 .main .hero {
   background-color: #2e2f42;
+  padding: 188px 0;
 }
 
-.main .hero .hero-button {
+.main .hero .container .hero-button {
   background-color: #4d5ae5;
   color: #fff;
   font-size: 16px;
@@ -186,6 +188,12 @@ h2 {
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.64px;
+  display: block;
+  margin: 0 auto;
+  height: 56px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .main .hero-button:hover,
