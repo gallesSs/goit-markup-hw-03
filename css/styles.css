@@ -89,6 +89,9 @@ h2 {
   align-items: center;
   flex-direction: row;
   gap: 40px;
+}
+
+.header .nav .nav-list .address-list-item .nav-list-item-link {
   padding: 24px 0;
 }
 
@@ -100,7 +103,7 @@ h2 {
   gap: 40px;
 }
 
-.header .nav .nav-logo {
+.header .nav .nav-list .nav-list-item .header .nav .nav-logo {
   color: #4d5ae5;
   font-family: 'Raleway', sans-serif;
   font-size: 18px;
