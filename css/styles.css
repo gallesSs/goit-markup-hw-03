@@ -384,6 +384,7 @@ h2 {
   letter-spacing: 0.72px;
   text-transform: capitalize;
   text-align: center;
+  margin-bottom: 72px;
 }
 
 .portfolio .portfolio-list-item-text {
@@ -419,6 +420,8 @@ h2 {
   line-height: 1.17;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  display: inline-block;
+  margin-bottom: 16px;
 }
 
 .footer .footer-text {
@@ -428,10 +431,16 @@ h2 {
   font-weight: 400;
   line-height: 24px;
   letter-spacing: 0.32px;
+  max-width: 264px;
 }
 
 .footer {
   background-color: #2e2f42;
+  padding: 100px 0;
+}
+
+.footer .container {
+  display: block;
 }
 
 /* =========== FOOTER  ============ */
