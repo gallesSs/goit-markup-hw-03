@@ -330,6 +330,41 @@ h2 {
 
 /* =========== PORTFOLIO  ============ */
 
+.portfolio {
+  padding: 120px 0;
+}
+
+.portfolio .container {
+  display: block;
+}
+
+.portfolio .container .portfolio-list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 24px;
+  row-gap: 48px;
+  flex-wrap: wrap;
+}
+
+.portfolio .container .portfolio-list .portfolio-list-item {
+  width: calc((100% - 48px) / 3);
+}
+
+.portfolio .container .portfolio-list .portfolio-list-item > img {
+  object-fit: contain;
+}
+
+.portfolio
+  .container
+  .portfolio-list
+  .portfolio-list-item
+  .portfolio-list-item-container {
+  padding: 32px 16px;
+  border: 1px solid #e7e9fc;
+  border-top: none;
+}
+
 .portfolio .portfolio-list-item-title {
   color: #2e2f42;
   font-size: 20px;
@@ -337,7 +372,7 @@ h2 {
   font-weight: 500;
   line-height: 1.2;
   letter-spacing: 0.4px;
-  text-align: center;
+  margin-bottom: 8px;
 }
 
 .portfolio-title {
