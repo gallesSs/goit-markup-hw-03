@@ -60,6 +60,20 @@ h2 {
   text-transform: capitalize;
 }
 
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  margin: -1px;
+  border: 0;
+  padding: 0;
+
+  white-space: nowrap;
+  clip-path: inset(100%);
+  clip: rect(0 0 0 0);
+  overflow: hidden;
+}
+
 /* =========== DEFAULT  ============ */
 
 /* =========== HEADER  ============ */
@@ -164,6 +178,12 @@ h2 {
   letter-spacing: 0.02em;
 }
 
+/* =========== HEADER  ============ */
+
+/* =========== MAIN  ============ */
+
+/* =========== HERO  ============ */
+
 .main .hero .container .hero-title {
   color: #fff;
   font-size: 56px;
@@ -172,7 +192,7 @@ h2 {
   line-height: 1.07;
   letter-spacing: 1.12px;
   text-align: center;
-  width: 496px;
+  max-width: 496px;
 }
 
 .main .hero {
@@ -194,12 +214,24 @@ h2 {
   border: none;
   border-radius: 4px;
   cursor: pointer;
+  min-width: 169px;
 }
 
 .main .hero-button:hover,
 .main .hero-button:focus {
   background-color: #404bbf;
   cursor: pointer;
+}
+
+/* =========== HERO  ============ */
+
+/* =========== FEATURES  ============ */
+
+.features {
+  padding: 120px 0;
+}
+
+.features .features-container .features-list {
 }
 
 .features .features-list-item-title {
@@ -219,6 +251,10 @@ h2 {
   line-height: 24px;
   letter-spacing: 0.32px;
 }
+
+/* =========== FEATURES  ============ */
+
+/* =========== TEAM  ============ */
 
 .team .team-list .team-list-item-title {
   color: #2e2f42;
